@@ -1,9 +1,9 @@
 ---
 layout: post
 date: 2023-02-10
-title: "February 10, 2023 Entry"
+title: "Deployment Chronicles: Part 1 - Quickstart NodeJs web app"
 tags:
-  - Polish Palace
+  - Deployment Chronicles
 ---
 
 Today is the first post of the 2023 year. I took the AZ-204 but missed it by a few points. Before, I've been thinking of creating a project from the ground up to practice Azure. Now, I think that this approach wasn't productive and I was putting road blocks in my path, impeding my progress.
@@ -12,8 +12,7 @@ This year, I want to get better at working on smaller, more achieveable goals in
 
 So I decided that my goal for 2023 is to just get something deployed.
 
-To be more specific, I want to get the basis step out of the way and then built on it. And while I do tend to think futuristiclly about where I could take this ()
-deploying a web application that has a ui and api and is maybe connected to a database), I don't want to put pressure on myself to achieve anything super big.
+To be more specific, I want to get the basis step out of the way and then built on it. And while I do tend to think futuristiclly about where I could take this (deploying a web application that has a ui and api and is maybe connected to a database), I don't want to put pressure on myself to achieve anything super big.
 
 Today, I was able to deploy a Node.js web app ( created via express-generater) by following this tutorial https://learn.microsoft.com/en-us/azure/app-service/quickstart-nodejs?tabs=windows&pivots=development-environment-cli.
 
@@ -49,3 +48,5 @@ It is a basic Node.js UI web app, but it is deployed, so that's good and I'm hap
 AZ CLI cmd tips:
 
 - `az group list --out table`: to display all the RGs in a table format
+
+Now that this initial adventure is over, I have decided to continue this series and I will call it "Azure Tales, the Deployment Chronicles, manual deployment quest". Yes, this is a long title but I think it captures that my wrestle with Azure will be a long jounrey filled with twists and turns. So buckle up my parasols.
