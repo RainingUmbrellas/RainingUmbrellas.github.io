@@ -16,6 +16,8 @@ Taking the exam also refreshed me on the mindset of test taking and helped me se
 
 I also liked how the exam at the end gave some suggested areas for me to work on.
 
+I guess also just being done with the exam for now really takes some weight off of my shoulders.
+
 The game plan for now is
 Short Term:
 

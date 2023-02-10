@@ -36,7 +36,7 @@ So I am going to try to create a project that uses as many services as I can.
     - slot swapping
     - route traffic in app service
 - How to be used:
-  - host the frontend/ client
+  - host the server & client
 - Ease of use: **EASY**
 
 2. Functions: could be used to help clean up or message
@@ -79,7 +79,7 @@ So I am going to try to create a project that uses as many services as I can.
   - Store images, documents
 - Ease of use: **MEDIUM**
 
-4. Cosmos DB: there's different APIs so but they usually
+4. Cosmos DB: there's different APIs
 
 - Objs:
   - Explore Cosmos DB
@@ -174,16 +174,84 @@ In terms of the subject for the project, I am not sure. Here is a list of ideas 
 
 - Closet:
 
-  - Get Clothes: GET
-  - Create Clothes: POST
-  - Update Clothes: PUT
-  - Delete Clothes: DELETE
+  - App Service Plan
+    - App Services (1): API
+      - APIM
+    - App Services (2): UI
+  - Azure Cosmos DB: DB
+  - Storage Account (Blob Storage): Storage images
+  - Application Insights: logging
+  - Key Vault: mantaining secrets
+  - MS Authentication & MS Identity platform: auth
+  - Redis Cache: Headers, footers, banners, icons, logos, etc
 
-- Meeting of the minds:
-- Crystal gems: could use gremlin or cassandra to map the different fusions
-- Monster High
-- Descendnants
-- Young Justice
-- Avatar: The Last Airbender
-- Stranger Things
-- 39 Clues
+- Meeting of the Minds:
+
+  - MERN app
+  - Dockerfile to containerize backend & frontend
+
+- Nails Shop:
+
+  - Redis Cache: Session store (shopping carts, user history data, cookies)
+
+- MissOdyssey Pageant Portal:
+
+  - App Service Plan
+    - App Services (1): API
+      - APIM
+    - App Services (2): UI
+  - Azure Cosmos DB: DB
+  - Storage Account (Blob Storage): Storage images, videos
+  - Application Insights: logging
+  - Key Vault: mantaining secrets
+  - MS Authentication & MS Identity platform: auth (admin vs contestant)
+  - Redis Cache: Headers, footers, banners, icons, logos, etc
+  - Service Bus: Text message when you receive feedback
+
+  - Data sketch:
+    - Users: should there be a model for admin & contestant?
+      - id: guid
+      - username: string
+      - password: salted string
+      - security question:
+      - security answer:
+      - role: admin, contestant
+      - token: JWT
+    - Pageant:
+      - Contestants
+      - Requirements
+    - 1. Entry Form:
+    - 2. Media Release Form
+    - 3. Bio:
+      - id:
+      - UserID
+      - FirstName:
+      - Middle Name:
+      - Last Name:
+      - Grade:
+      - Age:
+      - Parents/Guardians
+      - Clubs/Offices held/Extracurricular Activities
+      - Hobbies
+      - What are your strongest qualities and why?
+      - What is your biggest weakness, and how do you build on it to make it a quality?
+      - Where do you see yourself in the next 5 years?
+      - Who is the most influential person to you and why?
+    - 4. Video Intro: Video
+      - File (.mp3): Blob
+      - UserID
+    - 5. Casual Wear: Photos
+      - File (.png, .jpg): Blob
+      - UserId
+    - 6. Talent Video: Video
+      - File (.mp3): Blob
+    - 7. Formal Wear: Photos
+      - File (.png, .jpg): Blob
+    - 8. People's Choice:
+      - Donor's Name
+      - Amount
+      - Date Collected
+    - 9. Miss Congeniality: probably doesn't have to be its own table
+      - Contestant (only contestants already in the pageant)
+    - 10. Senior Question (only for seniors in grade 12)
+      - File (.mp3) Blob
