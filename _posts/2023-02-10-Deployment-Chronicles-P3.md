@@ -4,6 +4,7 @@ date: 2023-02-10
 title: "Deployment Chronicles: Part 3 - Angular web app"
 tags:
   - Deployment Chronicles
+  - Angular
 ---
 
 In today's adventure of the Deployment Chronicles, I deployed an Angular Web app!

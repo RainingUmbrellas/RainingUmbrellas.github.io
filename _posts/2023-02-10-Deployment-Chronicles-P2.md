@@ -4,6 +4,7 @@ date: 2023-02-10
 title: "Deployment Chronicles: Part 2 - React web app"
 tags:
   - Deployment Chronicles
+  - React
 ---
 
 Today's entry of the Deployment Chronicles, I deployed a React Web app!

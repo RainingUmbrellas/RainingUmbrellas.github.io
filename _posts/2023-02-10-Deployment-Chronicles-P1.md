@@ -4,6 +4,7 @@ date: 2023-02-10
 title: "Deployment Chronicles: Part 1 - Quickstart NodeJs web app"
 tags:
   - Deployment Chronicles
+  - Node.Js
 ---
 
 Today is the first post of the 2023 year. I took the AZ-204 but missed it by a few points. Before, I've been thinking of creating a project from the ground up to practice Azure. Now, I think that this approach wasn't productive and I was putting road blocks in my path, impeding my progress.
