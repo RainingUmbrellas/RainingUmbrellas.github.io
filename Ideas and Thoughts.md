@@ -76,3 +76,13 @@ Resources:
 
 - https://www.youtube.com/shorts/O20UqLU7sOw
 - https://www.youtube.com/watch?v=_x6SCSz7g5I
+- https://blog.logrocket.com/deploying-react-apps-github-pages/
+
+Home
+
+Favorites
+-> jukebox
+-> library
+-> theatre
+-> menagerie
+Projects

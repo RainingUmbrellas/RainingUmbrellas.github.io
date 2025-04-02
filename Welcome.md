@@ -12,7 +12,7 @@ Now that I am older and almost 30, I reflect back to my childhood ideas and I'm 
 
 I am a workaholic; I do a great job at work, but I neglect myself and my creative soul. I tend to be so tired after work and I spent the majority of my time outside of work sleeping, watching Youtube, or asisine tasks like grocery shopping. I would stay in bed till 1pm on weekends and I generally wasn't spending my time wisely or productively.
 
-Starting in late Januaray, I decided to do something different, something that would get me out of bed every Saturday and would improve my singing skills, which were developed in church during my early childhood to college. But since post-college, I hadn't had an opportunity to sing again or improve.
+Starting in late January, I decided to do something different, something that would get me out of bed every Saturday and would improve my singing skills, which were developed in church during my early childhood to college. But since post-college, I hadn't had an opportunity to sing again or improve.
 
 It's 2025 now and I think that my decision to take singing lessons gave me the push to try new things and get out of my comfort zone. Since starting lessons, I have also moved out, gone to anime conventions, gone to parties and bars, and just started trying to live my life outside of work and school.
 
