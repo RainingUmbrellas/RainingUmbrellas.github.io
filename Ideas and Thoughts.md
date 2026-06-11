@@ -77,6 +77,8 @@ Resources:
 - https://www.youtube.com/shorts/O20UqLU7sOw
 - https://www.youtube.com/watch?v=_x6SCSz7g5I
 - https://blog.logrocket.com/deploying-react-apps-github-pages/
+- https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents
+- https://www.w3schools.com/html/html_layout.asp
 
 Home
 
@@ -86,3 +88,5 @@ Favorites
 -> theatre
 -> menagerie
 Projects
+
+https://dev.to/thormeier/use-your-i-moon-gination-lets-build-a-moon-phase-visualizer-with-css-and-js-aih
