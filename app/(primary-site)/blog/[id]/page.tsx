@@ -1,14 +1,13 @@
 interface BlogPostPageProps {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ id: string }>;
 }
 
 export function generateStaticParams() {
-  return [{ slug: "first-post" }, { slug: "second-post" }];
+  return [{ id: "first-post" }, { id: "second-post" }];
 }
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  //const {id} = await params;
   const post = { title: "Post #A", content: "Testing 1 2 3" };
-  const { slug } = await params;
+  const { id } = await params;
   return (
     <div>
       <h1>{post.title}</h1>
