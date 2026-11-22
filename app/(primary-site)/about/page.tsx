@@ -13,6 +13,11 @@ export default function About() {
         personal life. I intend to make this site be 100% ai free, but for now
         95% isn`&apos;`t too bad.
       </p>
+      {/* <p>
+        Hi everyone! My name is RainingUmbrellas. I am a software engineer with
+        a passion for creating beautiful and functional web applications. I love
+        to learn new technologies and share my knowledge with others.
+      </p> */}
     </div>
   );
 }
